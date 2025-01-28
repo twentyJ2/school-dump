@@ -1,6 +1,6 @@
-firstNum=float(input("This program sorts numbers from greatest to least, left to right.\nInput your firstPrint number: "))
-secondNum=float(input("Input your secondPrint number: "))
-thirdNum=float(input("Input your thirdPrint number: "))
+firstNum=float(input("This program sorts numbers from greatest to least, left to right.\nInput your first number: "))
+secondNum=float(input("Input your second number: "))
+thirdNum=float(input("Input your third number: "))
 firstPrint=0.0
 secondPrint=0.0
 thirdPrint=0.0
@@ -33,4 +33,5 @@ else: #thirdNum is >= rest by this point
         firstPrint=thirdNum
         secondPrint=secondNum
         thirdPrint=firstNum
-print(str(firstPrint),str(secondPrint),str(thirdPrint))
+print(str(thirdPrint),str(secondPrint),str(firstPrint))
+#        "3rd place"     "2nd place"      "1st place"

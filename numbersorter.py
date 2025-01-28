@@ -1,36 +1,36 @@
-firstnum=float(input("This program sorts numbers from greatest to least, left to right.\nInput your first number: "))
-seconnum=float(input("Input your second number: "))
-thirdnum=float(input("Input your third number: "))
-first=0.0
-second=0.0
-third=0.0
+firstNum=float(input("This program sorts numbers from greatest to least, left to right.\nInput your firstPrint number: "))
+secondNum=float(input("Input your secondPrint number: "))
+thirdNum=float(input("Input your thirdPrint number: "))
+firstPrint=0.0
+secondPrint=0.0
+thirdPrint=0.0
 # Please welcome the ladder of terror.
-if firstnum>seconnum:
-    # otherwise second>=first
-    if seconnum>=thirdnum:   #1 2 3
-        first=firstnum
-        second=seconnum
-        third=thirdnum
-    elif thirdnum>seconnum:  #1 3 2
-        first=firstnum
-        second=thirdnum
-        third=seconnum
-elif seconnum>thirdnum:
-    if firstnum>=thirdnum:   #2 1 3
-        first=seconnum
-        second=firstnum
-        third=thirdnum
-    elif thirdnum>firstnum:  #2 3 1
-        first=seconnum
-        second=thirdnum
-        third=firstnum  
-else: #thirdnum is >= rest by this point
-    if firstnum>seconnum:
-        first=thirdnum
-        second=firstnum
-        third=seconnum
+if firstNum>secondNum:
+    # otherwise secondPrint>=first
+    if secondNum>=thirdNum:   #1 2 3
+        firstPrint=firstNum
+        secondPrint=secondNum
+        thirdPrint=thirdNum
+    elif thirdNum>secondNum:  #1 3 2
+        firstPrint=firstNum
+        secondPrint=thirdNum
+        thirdPrint=secondNum
+elif secondNum>thirdNum:
+    if firstNum>=thirdNum:   #2 1 3
+        firstPrint=secondNum
+        secondPrint=firstNum
+        thirdPrint=thirdNum
+    elif thirdNum>firstNum:  #2 3 1
+        firstPrint=secondNum
+        secondPrint=thirdNum
+        thirdPrint=firstNum  
+else: #thirdNum is >= rest by this point
+    if firstNum>secondNum:
+        firstPrint=thirdNum
+        secondPrint=firstNum
+        thirdPrint=secondNum
     else: #and can only be one result by now OR is all equal number.
-        first=thirdnum
-        second=seconnum
-        third=firstnum
-print(str(first),str(second),str(third))
+        firstPrint=thirdNum
+        secondPrint=secondNum
+        thirdPrint=firstNum
+print(str(firstPrint),str(secondPrint),str(thirdPrint))

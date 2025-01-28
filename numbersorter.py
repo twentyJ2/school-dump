@@ -1,4 +1,4 @@
-firstnum=float(input("Input your first number: "))
+firstnum=float(input("This program sorts numbers from greatest to least, left to right.\nInput your first number: "))
 seconnum=float(input("Input your second number: "))
 thirdnum=float(input("Input your third number: "))
 first=0.0
@@ -33,4 +33,4 @@ else: #thirdnum is >= rest by this point
         first=thirdnum
         second=seconnum
         third=firstnum
-print(str(firstnum),str(seconnum),str(thirdnum))
+print(str(first),str(second),str(third))

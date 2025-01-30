@@ -1,4 +1,4 @@
-import turtle
+'''import turtle
 turtle.speed(1)
 overarchIncrements=3
 distance=0
@@ -37,6 +37,7 @@ for num in range(10):
     if num % 2 ==0:
         continue
     print(num)
+    '''
 '''print(1,2,3,sep="canbeanything")
 print(2, end="alsowhatever")
 print(3,end="!!\n")'''
@@ -56,3 +57,14 @@ while capacity>0:
 print("No more SU capacity remaining. ("+str(capacity)+")")
 
 .isnumeric()'''
+
+'''
+sum=0.0
+addition=1.0
+print("Input numbers to add to the sum.\nInput 0 to end prompt and show sum.\n")
+while addition!=0:
+    addition=float(input())
+    sum+=addition
+print(sum)
+'''
+

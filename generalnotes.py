@@ -1,4 +1,5 @@
-'''import turtle
+import turtle
+'''
 turtle.speed(1)
 overarchIncrements=3
 distance=0
@@ -45,18 +46,18 @@ print(3,end="!!\n")'''
 
 '''capacity=int(input("Input SU capacity: "))
 mult=0
-rpm=0
 reduction=0
 
 while capacity>0:
-    rpm=int(input("Input RPM: "))
+    rpm=input("Input RPM: ")
+    while rpm.isnumeric() == False:
+        rpm=input("Input a numeric this time: ")
     mult=int(input("Input SU mult: "))
     reduction=int(rpm*mult)
     capacity-=reduction
     print("You have",str(capacity),"SU capacity remaining.")
 print("No more SU capacity remaining. ("+str(capacity)+")")
-
-.isnumeric()'''
+'''
 
 '''
 sum=0.0
@@ -67,4 +68,14 @@ while addition!=0:
     sum+=addition
 print(sum)
 '''
+side_length=100
+def draw_square(side_length):
+    for _ in range(4):
+        turtle.forward(side_length)
+        turtle.right(90)
+    print("cool, all done")
+draw_square()
+for size in range(25,151,25):
+    draw_square(size)
 
+turtle.done()

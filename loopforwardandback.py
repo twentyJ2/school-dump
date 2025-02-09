@@ -8,7 +8,7 @@ for num in range(101,1,-1):
     print(num)
 print("(For) sum is",sum)
     
-# Forwards using a while loop
+# Now forwards using a while loop
 sum=0
 increment=0
 while increment<101:
